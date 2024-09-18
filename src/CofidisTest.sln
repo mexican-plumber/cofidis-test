@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CofidisTest.API", "CofidisTest.API\CofidisTest.API.csproj", "{C024B4D0-D876-4956-B28B-22F291A403B5}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CofidisTest.DB", "CofidisTest.DB\CofidisTest.DB.sqlproj", "{AD0DE907-9472-42D9-83F3-1A24704047AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CofidisTest.Data", "CofidisTest.Data\CofidisTest.Data.csproj", "{9CCB02F4-642B-4B55-92D0-C3072C523214}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CofidisTest.Application", "CofidisTest.Application\CofidisTest.Application.csproj", "{BBA8BBDA-E95B-42F9-AF8E-0DE887311479}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0666C02E-D050-429A-910A-FB57EF485608}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CofidisTest.Application.Tests", "CofidisTest.Application.Tests\CofidisTest.Application.Tests.csproj", "{29B7ABB5-5524-46D0-A386-5369E400F3C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C024B4D0-D876-4956-B28B-22F291A403B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C024B4D0-D876-4956-B28B-22F291A403B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C024B4D0-D876-4956-B28B-22F291A403B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C024B4D0-D876-4956-B28B-22F291A403B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD0DE907-9472-42D9-83F3-1A24704047AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD0DE907-9472-42D9-83F3-1A24704047AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD0DE907-9472-42D9-83F3-1A24704047AB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AD0DE907-9472-42D9-83F3-1A24704047AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD0DE907-9472-42D9-83F3-1A24704047AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD0DE907-9472-42D9-83F3-1A24704047AB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9CCB02F4-642B-4B55-92D0-C3072C523214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CCB02F4-642B-4B55-92D0-C3072C523214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CCB02F4-642B-4B55-92D0-C3072C523214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CCB02F4-642B-4B55-92D0-C3072C523214}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBA8BBDA-E95B-42F9-AF8E-0DE887311479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBA8BBDA-E95B-42F9-AF8E-0DE887311479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBA8BBDA-E95B-42F9-AF8E-0DE887311479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBA8BBDA-E95B-42F9-AF8E-0DE887311479}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29B7ABB5-5524-46D0-A386-5369E400F3C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29B7ABB5-5524-46D0-A386-5369E400F3C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29B7ABB5-5524-46D0-A386-5369E400F3C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29B7ABB5-5524-46D0-A386-5369E400F3C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29B7ABB5-5524-46D0-A386-5369E400F3C1} = {0666C02E-D050-429A-910A-FB57EF485608}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92824587-0FB8-4BDB-A5AC-C0C593AD4D6A}
+	EndGlobalSection
+EndGlobal
